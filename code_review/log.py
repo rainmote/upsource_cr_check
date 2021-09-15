@@ -54,7 +54,7 @@ class Logger:
     @staticmethod
     def GetInstance():
         if not Logger.OBJ:
-            Logger.OBJ = LOgger.create_logger('.', 'default.log')
+            Logger.OBJ = Logger.create_logger('.', 'default.log')
         return Logger.OBJ
     
     @staticmethod

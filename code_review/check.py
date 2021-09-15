@@ -7,6 +7,8 @@ import sys
 import argparse
 import traceback
 
+from distutils.util import strtobool
+
 from common import Common
 from log import debug, info, warning, error, fatal
 from upsource import Upsource
